@@ -8,7 +8,7 @@ const Input = ({ label, type, placeholder, value, atualizarState, obrigatorio })
     }
     return (
         <div className="Input">
-            <label>{label}{obrigatorio ? "*" : ""}</label>
+            <label>{label}{obrigatorio ? " *" : ""}</label>
             <input required={obrigatorio ? true : false} type={type} placeholder={placeholder} value={value} onChange={atualizar} />
         </div>
     )

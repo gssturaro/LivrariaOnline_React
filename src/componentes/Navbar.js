@@ -1,9 +1,4 @@
 import React, { useState } from "react";
-
-
-
-
-
 import { Link } from 'react-router-dom';
 
 import "./Navbar.scss";
@@ -29,12 +24,13 @@ const Navbar = () => {
         </div>
       </nav>
       <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
-        <Link onClick={fecharMenu} to="/">Home</Link>
-        <Link onClick={fecharMenu} to="/pagamento">Pagamento</Link>
-        <Link onClick={fecharMenu} to="/carrinho">Carrinho</Link>
+        <Link onClick={fecharMenu} to="/">Página Inicial</Link>
+        <Link onClick={fecharMenu} to="/pagamentos">Pagamentos</Link>
+        <Link onClick={fecharMenu} to="/carrinho">Carrinho de Compras</Link>
         <Link onClick={fecharMenu} to="/produtos">Produtos</Link>
       </section>
     </div>
   );
 };
+
 export default Navbar;

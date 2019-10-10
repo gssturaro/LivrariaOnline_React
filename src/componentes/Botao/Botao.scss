@@ -1,9 +1,4 @@
-.Cadastro {
-  button{
-    display: flex;
-    justify-content: center;
-    flex-direction: center;
-    margin: 40px;
+.Botao{
     width: 200px;
     height: 40px;
     border: none;
@@ -16,13 +11,4 @@
     &:hover{
         background-color: #64e09a
     }
-  }
-  h1{
-      color: #335a5f;
-      text-decoration: underline;
-      padding: 30px;
-  }
-  form {
-    margin-left: 50px;
-  }
 }

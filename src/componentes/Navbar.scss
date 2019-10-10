@@ -2,7 +2,7 @@
   nav {
     width: 100%;
     height: 70px;
-    background-color: orange;
+    background-color: #47a36f;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@
   .menu {
     width: 100%;
     height: 400px;
-    background-color: orange;
+    background-color: #47a36f;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -35,6 +35,9 @@
     left: 0;
     a {
       margin-left: 30px;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 20pt;
     }
   }
   .ativo {

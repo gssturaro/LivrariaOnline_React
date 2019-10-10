@@ -1,10 +1,24 @@
 .Home {
   header {
-    background-image: url(../imagens/banner.jpg);
+    background-image: url(../imagens/Banner-produtos-1.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 300px;
+  }
+  button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #47a36f;
+    border-radius: 20px;
+    border: 1px solid #47a36f;
+    color: white;
+    &:hover{
+        background-color: #64e09a
+    }
   }
   div {
     width: 100%;
@@ -12,5 +26,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+  }
+  h1{
+    text-decoration: underline;
+    color: #334b5f;
   }
 }

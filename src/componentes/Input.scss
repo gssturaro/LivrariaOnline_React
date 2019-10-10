@@ -11,11 +11,11 @@
     border: 1px solid black;
     border-radius: 10px;
     padding: 0 10px;
-    color: aquamarine;
+    color: #000000;
     outline: none;
     margin-bottom: 30px;
     &::placeholder {
-      color: rgba(0, 0, 0, 0.801);
+      color: #000000;
     }
   }
 }

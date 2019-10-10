@@ -8,8 +8,9 @@ const Home = () => {
         <div className="Home">
             <header></header>
             <div>
+                <h1>Cadastre-se Agora!</h1>
                 <Link to="/cadastro">
-                    <button>Cadastrar</button>
+                    <button>Cadastre-se</button>
                 </Link>
             </div>
         </div>
