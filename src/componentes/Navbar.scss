@@ -2,7 +2,7 @@
   nav {
     width: 100%;
     height: 70px;
-    background-color: #47a36f;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +13,7 @@
       justify-content: space-around;
       align-items: center;
       flex-direction: column;
+      cursor: pointer;
       span {
         width: 100%;
         height: 5px;
@@ -24,7 +25,7 @@
   .menu {
     width: 100%;
     height: 400px;
-    background-color: #47a36f;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -33,6 +34,7 @@
     position: absolute;
     top: 70px;
     left: 0;
+    cursor: pointer;
     a {
       margin-left: 30px;
       text-decoration: none;

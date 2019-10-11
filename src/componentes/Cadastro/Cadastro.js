@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Input from "../Input";
+import { Link } from 'react-router-dom';
 
 import "./Cadastro.scss";
 import Botao from "../Botao/Botao";
@@ -38,7 +39,8 @@ const Cadastro = () => {
         email: email,
         confirm_email: confirmEmail,
         password: senha
-      }
+    }
+
       localStorage.setItem(`Dados${count}`, JSON.stringify(payload));
       setCount(count + 1);
       setNome("");
@@ -47,6 +49,7 @@ const Cadastro = () => {
       setSenha("");
       resposta("Cadastrado com sucesso")
       setStatus(true)
+      window.open("http://localhost:3000/produtos")
 
     } else {
       resposta("Os emails não correspondem");
@@ -78,6 +81,7 @@ const Cadastro = () => {
           label="Nome"
           placeholder="Nome completo"
           atualizarState={setNome}
+          obrigatorio
         />
         <Input
           value={email}
@@ -85,6 +89,7 @@ const Cadastro = () => {
           label="Email"
           placeholder="Digite seu email"
           atualizarState={setEmail}
+          obrigatorio
         />
         <Input
           value={confirmEmail}
@@ -100,6 +105,7 @@ const Cadastro = () => {
           label="Senha"
           placeholder="Digite sua senha"
           atualizarState={setSenha}
+          obrigatorio
         />
         <Botao>Cadastrar</Botao>
       </form>

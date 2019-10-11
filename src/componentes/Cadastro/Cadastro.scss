@@ -9,16 +9,16 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: #47a36f;
+    background-color: black;
     border-radius: 20px;
-    border: 1px solid #47a36f;
+    border: 1px solid black;
     color: white;
     &:hover{
-        background-color: #64e09a
+        background-color: red;
     }
   }
   h1{
-      color: #335a5f;
+      color: black;
       text-decoration: underline;
       padding: 30px;
   }

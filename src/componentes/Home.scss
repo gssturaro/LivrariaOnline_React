@@ -1,6 +1,6 @@
 .Home {
   header {
-    background-image: url(../imagens/Banner-produtos-1.jpg);
+    background-image: url(../imagens/Biblioteca.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -12,12 +12,12 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: #47a36f;
+    background-color: black;
     border-radius: 20px;
-    border: 1px solid #47a36f;
+    border: 1px solid red;
     color: white;
     &:hover{
-        background-color: #64e09a
+        background-color: red;
     }
   }
   div {
@@ -30,6 +30,6 @@
   }
   h1{
     text-decoration: underline;
-    color: #334b5f;
+    color: black;
   }
 }
